@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: cursive;
+    text-decoration: none;
 }
 /* start nav */
 header .navbar{
@@ -22,6 +23,9 @@ header .navbar button {
     color: #5ccef9;
 }
 /* end nav */
+/* ============================================================= */
+/* page index */
+/* ============================================================= */
 /* start slider */
 .slider{
     margin-bottom: 40px;
@@ -89,10 +93,14 @@ header .navbar button {
     color: black;
 }
 #gallary .container .navss .tab-content .row .imgs{
-    margin-bottom: 10px;
-}
-#gallary .container .navss .tab-content .row .imgs:hover{
     margin: 10px;
+}
+#gallary .container .navss .tab-content .row .imgs a{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#gallary .container .navss .tab-content .row .imgs a .banner button:hover{
+    margin: 5px;
 }
 #gallary .container .navss .tab-content .row .imgs .banner{
     background: aliceblue;
@@ -136,6 +144,11 @@ header .navbar button {
     width: 125px;
     height: 41px;
 }
+.form-group .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
 /* end contact */
 /* start footer */
 #footer{
@@ -177,3 +190,59 @@ header .navbar button {
     color: #5ccef9;
 }
 /* end footer */
+
+/* =================================================== */
+/* page product */
+/* =================================================== */
+
+/* start main */
+#course-details {
+    margin-top: 65px;
+}
+.course-details h3 {
+    font-size: 24px;
+    margin: 30px 0 15px 0;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .course-details h3:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #eef0ef;
+    bottom: 0;
+    left: 0;
+  }
+  .course-details h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: #5ccef9;
+    bottom: 0;
+    left: 0;
+  }
+  .course-details .course-info {
+    background: #f6f7f6;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+  }
+  .course-details .course-info h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .course-details .course-info p {
+    margin: 0;
+    font-weight: 600;
+  }
+  .course-details .course-info a {
+    color: #657a6d;
+    text-decoration: none;
+  }
+  /* end main */
